@@ -15,13 +15,11 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
 class WebViewDemo extends StatelessWidget {
   final selectedUrl = 'http://www.zuqiuhai.com';
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return WebviewScaffold(
       url: selectedUrl,
       appBar: AppBar(
